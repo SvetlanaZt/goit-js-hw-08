@@ -19,7 +19,6 @@ const createEl = galleryItems.map(value => {
 }).join('')
 
 createList.insertAdjacentHTML('afterbegin', createEl)
-
 console.log(createEl)
 
 
