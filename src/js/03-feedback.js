@@ -29,8 +29,6 @@ function onSubmitBtn(evt) {
 
     evt.currentTarget.reset()
     localStorage.removeItem(STORAGE_KEY)
-
-
 }
 function onShowSaveValue() {
     const getLocal = localStorage.getItem(STORAGE_KEY)
